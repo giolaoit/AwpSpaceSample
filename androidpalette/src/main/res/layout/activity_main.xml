@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/vibrant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vibrant" />
+
+        <TextView
+            android:id="@+id/light_vibrant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Light Vibrant" />
+
+        <TextView
+            android:id="@+id/dark_vibrant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dark Vibrant" />
+
+        <TextView
+            android:id="@+id/muted"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Muted" />
+
+        <TextView
+            android:id="@+id/light_muted"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Light Muted" />
+
+        <TextView
+            android:id="@+id/dark_muted"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dark Muted" />
+    </LinearLayout>
+
+</RelativeLayout>
